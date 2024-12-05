@@ -1,0 +1,21 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PHP Built-in Server",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": [
+                "-S",
+                "localhost:8000",
+                "-t",
+                "public"
+            ],
+            "port": 8000,
+            "serverReadyAction": {
+                "action": "openExternally"
+            }
+        }
+    ]
+}
